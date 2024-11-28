@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <style>
+
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+
+body{
+    background:linear-gradient(0,0,0,0.6),#d89551;
+    color: #100101;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    box-sizing: border-box;
+}
+
+
+.main{
+    width:100%;
+    background: url(img/background2.jpg);
+    background-position: center;
+    background-size: cover;
+    height:100vh;
+    position: relative;
+    color: rgb(159, 194, 225);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.navbar{
+    width: 90%;
+    display: flex;
+    margin: auto;
+    padding:15px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar .logo{
+    width: 80px;
+    cursor:pointer;
+    margin-top: -3%;
+    margin-left: -1%;
+}
+
+ul{
+    margin-top: -1%;
+
+}
+
+ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 16px;
+}
+ul li a{
+    font-size: 17px;
+    font-weight: bold;
+    text-decoration: none;
+    color:orange;
+    margin-top: -3%;
+    transition: .4s ease-out;
+}
+
+ul li a:hover{
+    color:yellowgreen;
+}
+
+ 
+.info{
+    margin-left: 7%;
+    margin-top: 10%;
+}
+.info h2{
+    font-size: 3%;
+    color:black
+}
+
+.info h3{
+    font-size: 19px;
+    letter-spacing: 1px;
+    line-height: 24px  ;
+}
+.info  span{
+    color:rgb(194, 20, 11);
+
+}
+
+.info a{
+    text-decoration: none;
+    color: #070101;
+    background-color: rgb(36,32,32);
+    margin:26px 0;
+    padding: 10px 18px;
+    border-radius: 10px;
+    display: inline-block;
+    transition: ease;
+}
+
+.info a:hover{
+    color:aqua;
+}
+
+
+.image{
+    width: 40%;
+    height: 60%;
+    position: absolute;
+    right: 50px;
+    bottom: 0;
+}
+
+.image img{
+    position: absolute;
+    height: 140%;
+    left: 90%;
+    transform: translate(-50%);
+    bottom: 0 ;
+    transition: left 2s ease;
+}
+.image:hover .kev{
+    left: 55%;
+}
+
+
+.icons a{
+    text-decoration: none;
+    color:black;
+}
+
+.icons ion-icon{
+    margin-left: 14%;
+    color:rgb(7, 149, 210);
+    margin-right: -50px;
+    font-size: 30px;
+    bottom: 0;  
+}
+
+
+</style>
+</head>
+<body>
+    
+    <div class="main">
+        <!--start of navigation button-->
+        <div class="navbar"> 
+            <a href = "#"><img src = "img/th-removebg-preview.png" class ="logo"></a>
+
+            <ul>
+                <li><a href = #>Home</a></li>
+                <li><a href = #about>About</a></li>
+                <li><a href = #porfolio>My portfolio</a></li>
+                <li><a href = #contact>Contact Me</a></li>
+
+            </ul>
+        </div>
+        <!--end of navigation button-->
+
+
+        <!-- Information of kevin start here-->
+        <div class="info">
+            <h3> Hi, Im <span>Kevin Kim Niog</h3>
+            <h1><span>W</span>eb <span>D</span>eveloper</h1>
+            <h3>Lorem, ipsum dolor sit amet <br>consectetur adipisicing elit.<br> Fugit possimus ipsam ex perspiciatis facere.</h3>
+           
+            <a href="#contact">invite me</a>
+        </div>
+   
+        <!-- Information of kevin end here-->
+
+        <!--modification of Image start here-->
+
+        <div class="image">
+            <img src = "img/kevin-removebg-preview.png" alt = "">
+        </div>
+
+
+
+         <!--modification of Image End here-->
+
+         <!--social media icons start here-->
+        <div class="icons">
+            <a href="https://www.facebook.com/kevinkimniog/photos_by"><ion-icon name="logo-facebook"></ion-icon></a>
+            <a href="https://www.instagram.com/"><ion-icon name="logo-instagram"></ion-icon></a>
+            <a href="https://www.youtube.com/watch?v=Z141h5Wucm0&list=RDfMmqh4Ut_Uo&index=8"><ion-icon name="logo-youtube"></ion-icon></a> 
+        </div>
+    </div>
